@@ -57,7 +57,7 @@ export const Navbar = () => {
               whileHover={{ scale: 1.02 }}
             >
               <img 
-                src="/images/RK Geo.jpg" 
+                src={`${import.meta.env.BASE_URL}images/RK Geo.jpg`}
                 alt="RK Geo Services Logo" 
                 className="h-12 w-auto object-contain"
               />

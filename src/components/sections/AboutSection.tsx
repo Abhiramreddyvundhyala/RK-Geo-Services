@@ -60,7 +60,7 @@ export const AboutSection = () => {
                 <div className="relative mb-6">
                   <div className="w-48 h-48 rounded-2xl overflow-hidden ring-4 ring-teal/20 shadow-lg">
                     <img 
-                      src="/images/Dr. Ravikanth Padala,.jpg" 
+                      src={`${import.meta.env.BASE_URL}images/Dr. Ravikanth Padala,.jpg`}
                       alt="Dr. Ravikanth Padala" 
                       className="w-full h-full object-cover"
                     />
